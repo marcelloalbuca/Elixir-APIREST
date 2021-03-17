@@ -4,7 +4,7 @@ use Mix.Config
 config :rocketpay, Rocketpay.Repo,
   username: "postgres",
   password: "root",
-  database: "rocketpay_de",
+  database: "rocketpay_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
